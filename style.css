@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.header{
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    padding: 20px;
+    text-emphasis: none;
+}
+
+.header a{
+    justify-content: space-between;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+.header a:visited{
+    text-decoration-color: yellow;
+    cursor: nw-resize;
+}
+
+.list{
+    z-index: 82678236823687;
+    position: absolute;
+}
+
+.header h1{
+   margin-left: 20%;
+   padding: 5px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 227;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.gameDesc{
+    color: #0000ff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    opacity: 0.5;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 23232;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .animate{
+      transition: 2s ease-in-out;
+      transform: translateX(-30%)
+  }
